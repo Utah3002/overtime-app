@@ -17,9 +17,9 @@
 
 ## UI:
 - x Bootstrap -> formatting
-- Icons from Font Awesome
+- x Icons from glyphicons
 - x Update the styles for forms
 
 ### Refactor TODOS:
--Rafactor posts/_form for admin user with status
+- x Rafactor posts/_form for admin user with status
 
