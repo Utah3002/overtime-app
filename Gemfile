@@ -32,4 +32,4 @@ gem 'pundit', '~> 2.0'
 gem 'puma', '~> 3.12'
 gem 'twilio-ruby', '~> 5.19'
 gem 'dotenv-rails' , :groups => [:development, :test]
-gem 'kaminari', '~> 1.1', '>= 1.1.1'
+gem 'kaminari', '~> 0.17.0'
