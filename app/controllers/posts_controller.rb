@@ -4,7 +4,7 @@ class PostsController < ApplicationController
 	def index
 		@posts = Post.posts_by(current_user).page(params[:page]).per(10)
 	end
-	
+
 	def approve
 		authorize @post
 		@post.approved!
