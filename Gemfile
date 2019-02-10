@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.4.5'
 
 gem 'rails', '4.2.5'
 gem 'pg', '~> 0.15'
@@ -11,18 +10,17 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-group :development, :test do
+
   gem 'byebug'
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'factory_girl_rails', '~> 4.9'
-end
 
-group :development do
+
   gem 'web-console', '~> 2.0'
   gem 'spring'
-end
+
 
 gem 'devise', '~> 4.5'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
