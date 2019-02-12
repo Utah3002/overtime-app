@@ -1,7 +1,0 @@
-Available generators:
-  gritter:locale
-
-Examples:
-  rails g gritter:locale
-  This will create:
-    config/locales/gflash.en.yml
